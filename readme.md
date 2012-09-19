@@ -5,6 +5,9 @@ Its built following the pradigm that routes are the most important thing of any 
 How it works is that in config/restricted-paths.php, you provide an array of paths that are protected
 by authentication.
 
+NOTE: IT USES LARAVEL's Auth CLASS TO CHECK IF THE CURRENT USER HAS BEEN AUTHENTICATED OR NOT. SO IN SHORT,
+		STICK WITH CONVENTIONS OF LARAVEL's Auth CLASS, I FIND IT GOOD ENOUGH
+
 For example:
 
 	return array(
