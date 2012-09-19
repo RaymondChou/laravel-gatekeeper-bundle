@@ -2,6 +2,4 @@
 
 return array(
 	'admin',
-	'fan',
-	'controlpanel'
 );
