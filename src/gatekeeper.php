@@ -2,7 +2,7 @@
 
 namespace Gatekeeper;
 
-use Auth, Response, Redirect, Session, UtilTrait, Config;
+use Auth, Response, Redirect, Session, Config;
 
 class Gatekeeper
 {
