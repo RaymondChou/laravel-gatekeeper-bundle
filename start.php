@@ -2,7 +2,7 @@
 
 Autoloader::namespaces(array(
 	'Gatekeeper' => Bundle::path('gatekeeper') . 'src'
-);
+));
 
 Autoloader::alias('Gatekeeper\\Gatekeeper', 'Gatekeeper');
 
