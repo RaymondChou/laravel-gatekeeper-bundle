@@ -26,7 +26,7 @@ class Gatekeeper
 	{
 		$parts = explode('/', $uri);
 
-		foreach(Rules::api_calls() as $c) {
+		foreach(Rules::api_paths() as $c) {
 			if(in_array($c, $parts))
 				return true;
 		}
